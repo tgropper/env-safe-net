@@ -38,7 +38,7 @@ public class Startup
     public Startup(IHostingEnvironment env)
     {
         var builder = new ConfigurationBuilder()
-            .AddEnvironmentVariablesSafe();
+            .AddEnvironmentVariablesSafe(); // EnvSafe extension
         ..
     }
     ..
