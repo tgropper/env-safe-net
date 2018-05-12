@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Development": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "REDIS_HOST": "localhost",
+        "REDIS_PORT": "6379",
+        "REDIS_INSTANCE": "env-safe-net"
+      },
+      "applicationUrl": "http://localhost:61658"
+    }
+  }
+}
