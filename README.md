@@ -1,8 +1,11 @@
-# env-safe-net [![NuGet](https://img.shields.io/nuget/v/EnvSafe.svg)](https://www.nuget.org/packages/EnvSafe) [![Build Status](https://travis-ci.org/tgropper/env-safe-net.svg?branch=master)](https://travis-ci.org/tgropper/env-safe-net)
+# env-safe-net
 
 Inspired by [`dotenv-safe`](https://github.com/rolodato/dotenv-safe).
 
 Using the `EnvSafe` extension does the same thing that `AddEnvironmentVariable()` but ensures that all necessary environment variables are defined after reading from `Environment.GetEnvironmentVariables()`.
+
+[![Build Status](https://travis-ci.org/tgropper/env-safe-net.svg?branch=master)](https://travis-ci.org/tgropper/env-safe-net)
+[![NuGet](https://img.shields.io/nuget/v/EnvSafe.svg)](https://www.nuget.org/packages/EnvSafe)
 
 ## Install
 From the package manager console:
